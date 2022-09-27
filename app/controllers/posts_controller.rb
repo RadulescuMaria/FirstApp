@@ -1,6 +1,10 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
 
+  # Pagina de pornire
+  def home
+  end
+
   # GET /posts or /posts.json
   def more
     @comments = Comment.all
