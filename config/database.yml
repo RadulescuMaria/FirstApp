@@ -26,6 +26,6 @@ test:
 
 production:
   <<: *default
-  database: app_production
+  database: db6694meeu4lir
   username: postgres
   password: parola
